@@ -18,7 +18,6 @@ End the program
 #Program to find the solution for the given linear equations.
 #Developed by: vinodhini M k
 #RegisterNumber:212225230305
-
 import os
 os.environ["OPENBLAS_NUM_THREADS"]="1"
 import numpy as np
@@ -26,7 +25,6 @@ matrixA=np.array([[1,3],[2,5]])
 const=np.array([5,-3])
 result=np.linalg.solve(matrixA,const)
 print(result)
-
 ```
 ## Output:
 ![alt text](<Screenshot 2026-05-14 104713.png>)
